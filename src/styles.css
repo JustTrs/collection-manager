@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+div.main-container {
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
